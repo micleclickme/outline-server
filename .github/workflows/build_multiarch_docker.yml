@@ -16,8 +16,6 @@ name: Build and Push Multi-Arch Docker Image
 
 on:
   push:
-    branches:
-      - master
     tags:
       - 'v*'
   workflow_dispatch:
