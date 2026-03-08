@@ -24,7 +24,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/shadowbox
+  IMAGE_NAME: ${{ github.repository_owner }}/outline-server
 
 jobs:
   build:
